@@ -51,7 +51,7 @@ public class FeedbackTest {
 		    driver.get("https://kask6iktundubkorras.sayat.me/rene1test/sent");
 		    driver.findElements(By.className("post-answer-text"));
 		    if(driver.findElements(By.className("post-answer-text")).get(0).getText().equals(tagasiside)) {
-		    	System.out.println("Test successful!");
+		    	System.out.println("Test successful!");	
 		    	System.out.println("Feedback added:" + tagasiside);
 		    }else {
 		    	System.out.println("Test failed!");
