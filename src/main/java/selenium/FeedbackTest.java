@@ -33,7 +33,7 @@ public class FeedbackTest {
 		driver.get("https://kask6iktundubkorras.sayat.me/");
 		
 		//Log in using given credentials
-		driver.findElement(By.xpath("/html/body/div[2]/div/div[3]/div[1]/ul[2]/li[2]/a")).click(); 				
+		driver.findElement(By.linkText("Logi sisse")).click(); 				
 		driver.findElement(By.id("fburl_d")).sendKeys(username);												
 	    driver.findElement(By.xpath("/html/body/div[3]/div/div[2]/form[2]/div/input[1]")).sendKeys(password);	
 	    driver.findElement(By.xpath("/html/body/div[3]/div/div[2]/form[2]/div/button")).click(); 	
